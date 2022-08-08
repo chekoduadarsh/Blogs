@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Markdown from 'markdown-to-jsx';
 
 
-function App() {
+function MarkdownReader() {
     const file_name = 'README.md';
     const [post, setPost] = useState('');
 
@@ -26,6 +26,10 @@ function App() {
             </Markdown>
         </div>
     );
+
+
 }
 
-export default App;
+
+
+export default MarkdownReader;
