@@ -6,8 +6,58 @@
             "fileThubnail":""
         },
         {
-            "filePath":"ProgrammersGuide/programmersGuid.md",
-            "fileDiscription": "Guide File",
+            "filePath":"HackerRank/Problem Solving/Connected Cells in a Grid/learnings.md",
+            "fileDiscription": "Connected Cells in a Grid",
+            "fileThubnail":""
+        },
+        {
+            "filePath":"HackerRank/Problem Solving/Counting Valleys/learnings.md",
+            "fileDiscription": "Counting Valleys",
+            "fileThubnail":""
+        },
+        {
+            "filePath":"HackerRank/Problem Solving/Designer PDF Viewer/learnings.md",
+            "fileDiscription": "Designer PDF Viewer",
+            "fileThubnail":""
+        },
+        {
+            "filePath":"HackerRank/Problem Solving/Encryption/learnings.md",
+            "fileDiscription": "Encryption",
+            "fileThubnail":""
+        },
+        {
+            "filePath":"HackerRank/Problem Solving/Equalize the Array/learnings.md",
+            "fileDiscription": "Equalize the Array",
+            "fileThubnail":""
+        },
+        {
+            "filePath":"HackerRank/Problem Solving/Grid Challange/learnings.md",
+            "fileDiscription": "Grid Challange",
+            "fileThubnail":""
+        },
+        {
+            "filePath":"HackerRank/Problem Solving/Jumping on the Clouds/learnings.md",
+            "fileDiscription": "Jumping on the Clouds",
+            "fileThubnail":""
+        },
+        {
+            "filePath":"HackerRank/Problem Solving/Picking Numbers/learnings.md",
+            "fileDiscription": "Picking Numbers",
+            "fileThubnail":""
+        },
+        {
+            "filePath":"HackerRank/Problem Solving/Repeated String/learnings.md",
+            "fileDiscription": "Repeated String",
+            "fileThubnail":""
+        },
+        {
+            "filePath":"HackerRank/Problem Solving/The Time in Words/learnings.md",
+            "fileDiscription": "The Time in Words",
+            "fileThubnail":""
+        },
+        {
+            "filePath":"HackerRank/Problem Solving/Utopian Tree/learnings.md",
+            "fileDiscription": "Utopian Tree",
             "fileThubnail":""
         }
     ]
