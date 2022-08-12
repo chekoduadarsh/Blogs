@@ -33,7 +33,6 @@ class content extends React.Component {
     redirectToHome = (e, item) => {
         e.preventDefault();
         this.setState({ "hasContent": false });
-        this.setState({ "content": "Velit exercitation non exercitation est. Magna laborum excepteur sint eiusmod. Dolore est elit occaecat dolor. Aliqua id veniam est ipsum ex Lorem fugiat fugiat duis fugiat nulla exercitation ipsum. Ut labore pariatur fugiat laborum irure et est duis nulla sunt in in. Irure tempor et enim laboris ea tempor ipsum voluptate aliquip sunt tempor aliquip. Aliquip deserunt ullamco et incididunt irure Lorem do nisi dolor sit ipsum." });
     }
     render() {
 
@@ -52,6 +51,7 @@ class content extends React.Component {
                     {this.state.index.files.map(item => (
                         <div id={item}>
                             <div className="card-deck">
+                                
                                 <br></br>
                                 <Card style={{ width: '18rem' }}>
                                     <Card.Body>
