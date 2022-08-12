@@ -18,15 +18,13 @@ class content extends React.Component {
     }
     redirectToMD = (e, item) => {
         e.preventDefault();
-        console.log('You clicked ' + item);
-        import(`./markdown/${item}`)
+        import(`./markdown/${item.filePath}`)
             .then(res => {
                 fetch(res.default)
                     .then(res => res.text())
                     .then(res => {
                         this.setState({ "content": res });
                         this.setState({ "hasContent": true });
-                        console.log(res)
                     })
                     .catch(err => console.log(err));
             })
@@ -57,10 +55,10 @@ class content extends React.Component {
                                 <br></br>
                                 <Card style={{ width: '18rem' }}>
                                     <Card.Body>
-                                        <Card.Title>{item.split("/").pop().replace(".md", "")}</Card.Title>
+                                        <Card.Title>{item.filePath.split("/").pop().replace(".md", "")}</Card.Title>
                                         <Card.Text>
                                             <Markdown>
-                                                {this.state.content}
+                                                {item.fileDiscription}
                                             </Markdown>
 
                                         </Card.Text>

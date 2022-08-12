@@ -1,6 +1,14 @@
 {
     "files":[
-        "README.md",
-        "ProgrammersGuide/programmersGuid.md"        
+        {
+            "filePath":"README.md",
+            "fileDiscription": "INTI File",
+            "fileThubnail":""
+        },
+        {
+            "filePath":"ProgrammersGuide/programmersGuid.md",
+            "fileDiscription": "Guide File",
+            "fileThubnail":""
+        }
     ]
 }
