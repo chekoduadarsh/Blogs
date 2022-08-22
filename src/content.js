@@ -55,7 +55,7 @@ class content extends React.Component {
                                 <br></br>
                                 <Card style={{ width: '18rem' }}>
                                     <Card.Body>
-                                        <Card.Title>{item.filePath.replace("HackerRank/Problem Solving/", "")}</Card.Title>
+                                        <Card.Title>{item.filePath.replace("HackerRank/Problem Solving/", "".replace("LeetCode/Problem Solving/", ""))}</Card.Title>
                                         <Card.Text>
                                             <Markdown>
                                                 {item.fileDiscription}
