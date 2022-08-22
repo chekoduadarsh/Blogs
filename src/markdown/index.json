@@ -1,64 +1,70 @@
 {
     "files":[
         {
-            "filePath":"README.md",
-            "fileDiscription": "INTI File",
-            "fileThubnail":""
-        },
-        {
             "filePath":"HackerRank/Problem Solving/Connected Cells in a Grid/learnings.md",
             "fileDiscription": "Connected Cells in a Grid",
-            "fileThubnail":""
+            "fileThubnail":"",
+            "imageIcon":"/cardImage.jpg"
         },
         {
             "filePath":"HackerRank/Problem Solving/Counting Valleys/learnings.md",
             "fileDiscription": "Counting Valleys",
-            "fileThubnail":""
+            "fileThubnail":"",
+            "imageIcon":"/cardImage.jpg"
         },
         {
             "filePath":"HackerRank/Problem Solving/Designer PDF Viewer/learnings.md",
             "fileDiscription": "Designer PDF Viewer",
-            "fileThubnail":""
+            "fileThubnail":"",
+            "imageIcon":"/cardImage.jpg"
         },
         {
             "filePath":"HackerRank/Problem Solving/Encryption/learnings.md",
             "fileDiscription": "Encryption",
-            "fileThubnail":""
+            "fileThubnail":"",
+            "imageIcon":"/cardImage.jpg"
         },
         {
             "filePath":"HackerRank/Problem Solving/Equalize the Array/learnings.md",
             "fileDiscription": "Equalize the Array",
-            "fileThubnail":""
+            "fileThubnail":"",
+            "imageIcon":"/cardImage.jpg"
         },
         {
             "filePath":"HackerRank/Problem Solving/Grid Challange/learnings.md",
             "fileDiscription": "Grid Challange",
-            "fileThubnail":""
+            "fileThubnail":"",
+            "imageIcon":"/cardImage.jpg"
         },
         {
             "filePath":"HackerRank/Problem Solving/Jumping on the Clouds/learnings.md",
             "fileDiscription": "Jumping on the Clouds",
-            "fileThubnail":""
+            "fileThubnail":"",
+            "imageIcon":"/cardImage.jpg"
         },
         {
             "filePath":"HackerRank/Problem Solving/Picking Numbers/learnings.md",
             "fileDiscription": "Picking Numbers",
-            "fileThubnail":""
+            "fileThubnail":"",
+            "imageIcon":"/cardImage.jpg"
         },
         {
             "filePath":"HackerRank/Problem Solving/Repeated String/learnings.md",
             "fileDiscription": "Repeated String",
-            "fileThubnail":""
+            "fileThubnail":"",
+            "imageIcon":"/cardImage.jpg"
         },
         {
             "filePath":"HackerRank/Problem Solving/The Time in Words/learnings.md",
             "fileDiscription": "The Time in Words",
-            "fileThubnail":""
+            "fileThubnail":"",
+            "imageIcon":"/cardImage.jpg"
         },
         {
             "filePath":"HackerRank/Problem Solving/Utopian Tree/learnings.md",
             "fileDiscription": "Utopian Tree",
-            "fileThubnail":""
+            "fileThubnail":"",
+            "imageIcon":"/cardImage.jpg"
         }
     ]
 }

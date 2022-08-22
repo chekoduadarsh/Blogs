@@ -10,11 +10,9 @@ class content extends React.Component {
         super(props);
         this.state = {
             "index": require("./markdown/index.json"),
-            "content": "Consequat laborum quis culpa fugiat ut velit est. Deserunt sit labore ad dolore aliquip irure culpa laborum cupidatat laborum. Non ex esse cupidatat nisi nisi excepteur occaecat fugiat ea aliqua irure reprehenderit. Incididunt ex officia nostrud exercitation commodo ullamco esse sunt est id occaecat.",
             "hasContent": false
         }
         this.index = require("./markdown/index.json");
-        this.content = "Mollit proident sit cillum adipisicing fugiat. Ad ea in non duis ex reprehenderit nisi in. Ipsum occaecat eiusmod laborum esse elit nostrud ullamco voluptate laboris magna ad culpa pariatur in. Eiusmod officia non id aliqua fugiat mollit excepteur sint excepteur deserunt nostrud excepteur eiusmod."
     }
     redirectToMD = (e, item) => {
         e.preventDefault();
@@ -48,12 +46,15 @@ class content extends React.Component {
         } else {
             return (
                 <div className="Content">
+                    <div class="card-deck">
+
                     {this.state.index.files.map(item => (
                         <div id={item}>
-                            <div className="card-deck">
+                            <div >
                                 
                                 <br></br>
                                 <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src={ item.imageIcon } />
                                     <Card.Body>
                                         <Card.Title>{item.filePath.replace("HackerRank/Problem Solving/", "".replace("LeetCode/Problem Solving/", ""))}</Card.Title>
                                         <Card.Text>
@@ -69,6 +70,8 @@ class content extends React.Component {
                         </div>
                     )
                     )};
+                    </div>
+
                 </div>
             );
         }

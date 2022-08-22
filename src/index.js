@@ -4,13 +4,15 @@ import './index.css';
 import App from './navbar';
 import Content from './content';
 import reportWebVitals from './reportWebVitals';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
     <App />
+    <img src="/wallpaper.jpg" alt="wallpaper"/>
+    <div class="container reveal">
     <Content />
+    </div>
   </React.StrictMode>
 );
 

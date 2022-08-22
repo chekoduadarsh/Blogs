@@ -22,14 +22,7 @@ crossorigin="anonymous"></script>
           <br />
           <Navbar bg="dark">
             <Container>
-              <Navbar.Brand href="#home">
-                <img
-                  src="/logo512.png"
-                  width="30"
-                  height="30"
-                  className="d-inline-block align-top"
-                  alt="React Bootstrap logo"
-                />{' '}
+              <Navbar.Brand href="#home">{' '}
                 Adarsh's Blogs
               </Navbar.Brand>
 
