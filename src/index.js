@@ -4,14 +4,20 @@ import './index.css';
 import App from './navbar';
 import Content from './content';
 import reportWebVitals from './reportWebVitals';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  
+
   <React.StrictMode>
     <App />
-    <img src="/wallpaper.jpg" alt="wallpaper"/>
+    <img src="/wallpaper.jpg" alt="wallpaper" />
+    <section id="section05" class="demo">
+      <a href="#section06"><span></span>Scroll</a>
+    </section>
     <div class="container reveal">
-    <Content />
+      <Content />
     </div>
   </React.StrictMode>
 );

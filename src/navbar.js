@@ -1,5 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import './navbar.css';
+
 
 function navbar() {
 
@@ -19,16 +21,6 @@ crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" 
 integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" 
 crossorigin="anonymous"></script>
-          <br />
-          <Navbar bg="dark">
-            <Container>
-              <Navbar.Brand href="#home">{' '}
-                Adarsh's Blogs
-              </Navbar.Brand>
-
-              
-            </Container>
-          </Navbar>
         </>
       );
 
